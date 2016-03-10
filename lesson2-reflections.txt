@@ -1,0 +1,14 @@
+git status to see what has changed
+
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository you get a .git file that basically allows for git commands to be used in that directory. git status will track which files changed or all files that are in that directory that aren't being tracked.
+
+
+git add
+- adds to the staging area
+
+git commit
+- commits the change and if you add -m you can add a message in ""
+- also git commit . would commit all in the directory
+
+
