@@ -1,0 +1,92 @@
+You can easily compare 2 files by using the command line diff command
+
+EXAMPLE:
+diff -u old.html new.html
+
+on windows you use FC(which stands for file compare):
+FC old.html new.html
+
+
+This helps you easily spot bugs because it shows where new code was added (+ or - sign) and you can see where if your code worked in an old version where you changed code in the new version.
+
+git commit
+
+git diff
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro's
+- you can be more deliberate about when and why to save
+- you can be more specific about why to save
+
+
+Con's
+- You may forget to save for a while
+- You might save and commit too often
+- more difficult, higher learning curve.
+
+
+git log --stat <- the --stat gives statistics about each commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Dropbox
+Google Docs
+Wikipedia
+Saving Manual Copies
+
+
+All these services and techniques offer the advantages of saving changes made.
+
+Git
+Any editor
+Offline Support
+Save manually
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- because in programming you'll often have multiple files that depend on each other. Where in google docs it's reasonable to assume each doc is independant.
+
+
+GIT CLONE
+Creates a clone of the ENTIRE repository. It's not just simply downloading all the files-you're also getting all the version history and commits.
+
+
+Getting Colored Output
+
+To get colored diff output, run git config --global color.ui auto
+
+How can you use the commands git log and git diff to view the history of files?
+- With git log I can see a history of all commits and messages on what changed. I can then use the git commit ID to compare using git diff old.file new.file
+
+
+===============
+Git Errors and Warnings Solution
+
+Should not be doing an octopus
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened)
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.
+
+***
+git checkout allows you to basically reset your file back to a previously commited version
+***
+
+
+====
+How might using version control make you more confident to make changes that could break something?
+
+- because I know I could revert back to a previously saved version where everything worked and even go as far as comparing the exact lines of code that could have introduced the bug.
+
+
+git status to see what has changed
+
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository you get a .git file that basically allows for git commands to be used in that directory. git status will track which files changed or all files that are in that directory that aren't being tracked.
+
