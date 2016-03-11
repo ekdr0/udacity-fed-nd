@@ -1,0 +1,31 @@
+You can easily compare 2 files by using the command line diff command
+
+EXAMPLE:
+diff -u old.html new.html
+
+on windows you use FC(which stands for file compare):
+FC old.html new.html
+
+
+This helps you easily spot bugs because it shows where new code was added (+ or - sign) and you can see where if your code worked in an old version where you changed code in the new version.
+
+git commit
+
+git diff
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro's
+- you can be more deliberate about when and why to save
+- you can be more specific about why to save
+
+
+Con's
+- You may forget to save for a while
+- You might save and commit too often
+- more difficult, higher learning curve.
+
+
+git log --stat <- the --stat gives statistics about each commit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
