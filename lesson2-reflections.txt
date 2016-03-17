@@ -17,3 +17,9 @@ How is the staging area different from the working directory and the repository?
 the staging area is where you add changes to be committed. The working directory is where you have initialized git (all your files) the repository operates on the working directory.
 
 this is a change.
+
+this is another change...
+
+"git diff" compares between the working directory and the staging area
+
+"git diff --staged" compares between the staging area and what's been commited to the repo
