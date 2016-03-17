@@ -33,3 +33,13 @@ QUESTION
 How can you use the staging area to make sure you have one commit per logical change?
 
 By using git add and then git commit only when you're ready to push the changes. You can use git diff and git diff --staged to see what's different if you had to make a change once you've already staged a file and make sure you aren't overriding anything.
+
+
+BRANCHES
+Labels for your commits
+- master is the main branch
+- you can change branches by 'git checkout [otherbranch]'
+- you can combine branches and that process is called merging
+- you create a new branch by 'git branch [branch name without brackets]' or just typing git branch will show a list of the branches.
+
+OMG I just made it easierrrrr
