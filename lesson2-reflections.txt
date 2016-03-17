@@ -15,3 +15,5 @@ git commit
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 the staging area is where you add changes to be committed. The working directory is where you have initialized git (all your files) the repository operates on the working directory.
+
+this is a change.
