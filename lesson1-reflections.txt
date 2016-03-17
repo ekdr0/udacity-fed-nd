@@ -90,3 +90,6 @@ git status to see what has changed
 What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository you get a .git file that basically allows for git commands to be used in that directory. git status will track which files changed or all files that are in that directory that aren't being tracked.
 
+
+For setting up my terminal bash workspace remember https://classroom.udacity.com/nanodegrees/nd001/parts/0011345402/modules/001134540275460/lessons/2980038599/concepts/33331589510923
+
