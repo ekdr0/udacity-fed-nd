@@ -66,3 +66,26 @@ How do the diagrams help you visualize the branch structure?
 
 COMBINING SIMPLE FILES
 
+- git merge [master] [alt branch]
+
+
+
+To find the parent:
+- git show [commit id]
+
+
+Delete connection to branch (this doesnt delete the commits to the branch, just you'll have no way to reach the branch anymore) -> which is why you'd merge that branch into the master before deleting it, because then that branch would be reachable by the master branch, thus not needing the alt branch anymore.
+
+- git branch -d [branch name]
+
+
+QUESTION
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that of combining the files to form a new branch that points to both merged branches.
+
+
+QUESTION:
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- Pro's are that it makes merging conflicts easier and faster
+- Con's are it's hard for git to be able to automatically merge conflicts in code.
