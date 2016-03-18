@@ -42,4 +42,27 @@ Labels for your commits
 - you can combine branches and that process is called merging
 - you create a new branch by 'git branch [branch name without brackets]' or just typing git branch will show a list of the branches.
 
-OMG I just made it easierrrrr
+OR - shortened version git checkout -b [new branch name] // this creates a new branch in one line.
+
+QUESTION
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches allow for alternate timelines, perhaps I want to test features (latest and greatest css and js), I could also have functionality variations and/or just want to play around with the codebase without affecting the master branch. Public sharing as well. Public version verses dev version.
+
+
+RULE OF THUMB:
+Make a new branch for every bug-fix or feature.
+
+
+git log --graph helps you visualize the log
+
+git log --graph --oneline master coins  [this will be a shorter easier to read output of --graph and it will compare master and coins branches]
+
+
+QUESTION
+How do the diagrams help you visualize the branch structure?
+- Diagrams help visualize branch structure by allowing you to see connections and where branches go unreachable.
+
+
+COMBINING SIMPLE FILES
+
